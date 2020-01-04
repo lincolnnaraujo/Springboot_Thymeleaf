@@ -1,0 +1,5 @@
+br/com/springboot/thymeleaf/exemplothymeleaf/controller/TarefaController.class
+br/com/springboot/thymeleaf/exemplothymeleaf/repository/TarefaRepository.class
+br/com/springboot/thymeleaf/exemplothymeleaf/ExemploThymeleafApplication.class
+br/com/springboot/thymeleaf/exemplothymeleaf/model/Tarefa.class
+br/com/springboot/thymeleaf/exemplothymeleaf/controller/IndexController.class

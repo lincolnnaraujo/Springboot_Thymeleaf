@@ -1,0 +1,5 @@
+/home/lincolnaraujo/Documents/git-pocs/exemplo-thymeleaf/src/main/java/br/com/springboot/thymeleaf/exemplothymeleaf/repository/TarefaRepository.java
+/home/lincolnaraujo/Documents/git-pocs/exemplo-thymeleaf/src/main/java/br/com/springboot/thymeleaf/exemplothymeleaf/controller/TarefaController.java
+/home/lincolnaraujo/Documents/git-pocs/exemplo-thymeleaf/src/main/java/br/com/springboot/thymeleaf/exemplothymeleaf/ExemploThymeleafApplication.java
+/home/lincolnaraujo/Documents/git-pocs/exemplo-thymeleaf/src/main/java/br/com/springboot/thymeleaf/exemplothymeleaf/model/Tarefa.java
+/home/lincolnaraujo/Documents/git-pocs/exemplo-thymeleaf/src/main/java/br/com/springboot/thymeleaf/exemplothymeleaf/controller/IndexController.java
