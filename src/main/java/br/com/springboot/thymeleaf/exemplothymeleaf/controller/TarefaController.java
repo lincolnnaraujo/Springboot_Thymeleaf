@@ -30,7 +30,7 @@ public class TarefaController
         return "listatarefas";
     }
 
-    @RequestMapping(value = "salvar", method = RequestMethod.POST)
+    @RequestMapping(value = "/salvar", method = RequestMethod.POST)
     public String salvarNovaTarefa(@RequestParam String titulo,
                                    @RequestParam String descricao,
                                    Model model)
