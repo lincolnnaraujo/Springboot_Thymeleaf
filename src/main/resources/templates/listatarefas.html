@@ -8,7 +8,30 @@
 
 <h1>Tarefas cadastradas</h1>
 <hr />
-<span th:text="${listaDeTarefas}"></span>
+
+<div class="container">
+    <div id="listaDeTarefas">
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Status</th>
+                    <th>Data de Criação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="tarefa : ${listaDeTarefas}">
+                    <td><span th:text="${tarefa.getTituloTarefa()}"></span></td>
+                    <td><span th:text="${tarefa.getDscTarefa()}"></span></td>
+                    <td><span th:text="${tarefa.getFlagConclusao()}"></span></td>
+                    <td><span th:text="${tarefa.getDataCriacao()}"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <hr />
 
 <h1>Cadastrar novas tarefas</h1>
