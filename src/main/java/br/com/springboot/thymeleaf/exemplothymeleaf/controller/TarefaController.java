@@ -1,8 +1,7 @@
 package br.com.springboot.thymeleaf.exemplothymeleaf.controller;
 
 import br.com.springboot.thymeleaf.exemplothymeleaf.model.Tarefa;
-import br.com.springboot.thymeleaf.exemplothymeleaf.repository.TarefaRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import br.com.springboot.thymeleaf.exemplothymeleaf.service.TarefaService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,20 +9,21 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 @Controller
 public class TarefaController
 {
+    private TarefaService tarefaService;
 
-    @Autowired
-    TarefaRepository tarefaRepository;
+    public TarefaController(TarefaService tarefaService) {
+        this.tarefaService = tarefaService;
+    }
 
     @RequestMapping("/lista-tarefas")
     public String listaTarefas(Model model)
     {
-        List<Tarefa> tarefas = tarefaRepository.findAll();
+        List<Tarefa> tarefas = tarefaService.recuperarTarefasCadastradas();
 
          model.addAttribute("listaDeTarefas", tarefas );
 
@@ -38,10 +38,10 @@ public class TarefaController
         //Utilizando JPA para salvar novo objeto no banco de dados
         LocalDateTime dataVigente = LocalDateTime.now();
         Tarefa novaTarefa = new Tarefa(titulo, descricao, "N", dataVigente);
-        tarefaRepository.save(novaTarefa);
+        tarefaService.salvarNovaTarefa(novaTarefa);
 
         //Reload da lista de tarefas
-        List<Tarefa> tarefas = tarefaRepository.findAll();
+        List<Tarefa> tarefas = tarefaService.recuperarTarefasCadastradas();
         model.addAttribute("listaDeTarefas", tarefas );
 
         return "listatarefas";
