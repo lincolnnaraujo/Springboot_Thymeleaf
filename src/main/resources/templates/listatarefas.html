@@ -7,8 +7,21 @@
 <body>
 
 <h1>Tarefas cadastradas</h1>
-<hr>
+<hr />
 <span th:text="${listaDeTarefas}"></span>
+<hr />
+
+<h1>Cadastrar novas tarefas</h1>
+<form action="/salvar", method="post">
+    <div class="form-group">
+        <label for="titulo">Título</label><input type="text" class="form-control" id="titulo" name="titulo" placeholder="titulo" />
+    </div>
+    <div class="form-group">
+        <label for="descricao">Descrição</label><input type="text" class="form-control" id="descricao" name="descricao" placeholder="descricao" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Nova Tarefa</button>
+</form>
 
 </body>
 </html>

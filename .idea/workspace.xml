@@ -17,6 +17,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -26,6 +30,8 @@
     <configuration name="ExemploThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="exemplo-thymeleaf" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.springboot.thymeleaf.exemplothymeleaf.ExemploThymeleafApplication" />
+      <option name="ACTIVE_PROFILES" value="dsv" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -54,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578143711743</updated>
       <workItem from="1578143714179" duration="189000" />
+      <workItem from="1578143967585" duration="2708000" />
     </task>
     <servers />
   </component>
@@ -61,9 +68,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="449" y="174" key="SettingsEditor" timestamp="1578143906345">
+    <state x="555" y="200" width="800" height="677" key="#Notifications" timestamp="1578143996748">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="174" key="SettingsEditor/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578143906345" />
+    <state x="555" y="200" width="800" height="677" key="#Notifications/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578143996748" />
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578143983983">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578143983983" />
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578144130924">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578144130924" />
+    <state width="1874" height="543" key="GridCell.Tab.0.bottom" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.0.bottom/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.0.center" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.0.center/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.0.left" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.0.left/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.0.right" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.0.right/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.1.bottom" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.1.bottom/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.1.center" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.1.center/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.1.left" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.1.left/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state width="1874" height="543" key="GridCell.Tab.1.right" timestamp="1578146731402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="543" key="GridCell.Tab.1.right/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578146731402" />
+    <state x="449" y="174" key="SettingsEditor" timestamp="1578144450189">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="174" key="SettingsEditor/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1578144450189" />
   </component>
 </project>

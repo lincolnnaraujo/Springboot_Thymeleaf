@@ -46,15 +46,19 @@ public class Tarefa
     @Column(name = "flg_conclusao")
     private String flagConclusao;
 
-    @NotNull
-    @NotEmpty
     @Column(name = "data_criacao")
     private LocalDateTime dataCriacao;
 
-    @NotNull
-    @NotEmpty
     @Column(name = "data_atualizacao")
     private LocalDateTime dataAtualizacao;
+
+    public Tarefa(String _titulo, String _descricao, String _flag, LocalDateTime _dataCriacao)
+    {
+        this.tituloTarefa = _titulo;
+        this.dscTarefa = _descricao;
+        this.flagConclusao = _flag;
+        this.dataCriacao = _dataCriacao;
+    }
 
     @Override
     public String toString() {
